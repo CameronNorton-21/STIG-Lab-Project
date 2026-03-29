@@ -24,7 +24,7 @@ Performed security hardening of a Windows 11 virtual machine using DISA Security
 ## Process
 
 ### 1. Minimum Password Length
-![Server Installed](screenshots/password_length_stig1.png)
+!(Screenshots/password_length_stig1.png)
 
 ### 2. Password Complexity
 

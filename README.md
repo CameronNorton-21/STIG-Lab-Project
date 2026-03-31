@@ -5,7 +5,12 @@ Performed security hardening of a Windows 11 virtual machine using DISA Security
 
 Simulated aspects of the Risk Management Framework (RMF) process by implementing security controls, validating compliance, and documenting findings through structured evidence. 
 
+Created and managed a STIG checklist within STIG Viewer to track, assess, and validate compliance status for each control.
+
+This lab focused on locally enforceable STIG controls applicable to standalone Windows systems, excluding domain-dependent configurations.
+
 ---
+
 ## Objectives
 - Apply STIG-based security controls to a Windows system
 - Identify non-compliant configurations
@@ -207,16 +212,9 @@ For each control, the following process was used:
 1. Identified the STIG requirement in STIG Viewer
 2. Reviewed vulnerability details and fix text
 3. Verified current system configuration (non-compliant state)
-4. Applied remdiation using Windows system tools
+4. Applied security configurations using Local Group Policy Editor and verified settings through system-level policy enforcement
 5. Caputred before and after evidence
 6. Validated compliance by marking the control as "Not a Finding"
-
-### Results
-- Validated compliance using STIG Viewer checlist functionality
-- Strengthed system security across authentication, logging, and account management
-- Produced structured documentation aligned with compliance auditing practices
-- STIG Controls Reviewed: 12
-- STIG Rules Satisfied: 15
 
 ### Key Skills Demonstrated
 - Security configuration and system hardening
@@ -226,7 +224,9 @@ For each control, the following process was used:
 - Windows security policy management
 - Audit policy configuration
 
-### Outcome
-- Trnslate security requirements into system configurations
-- Apply and validate security controls
-- Document compliance in a structured and professional manner
+### Results
+- STIG Controls Reviewed: 12
+- STIG Rules Satisfied: 15
+- Successfully remediated and validated security configurations across password policies, account lockout, audit logging, and account security  
+- Verified compliance through STIG Viewer checklist updates and supporting system evidence  
+- Produced structured documentation aligned with compliance auditing practices

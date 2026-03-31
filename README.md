@@ -41,7 +41,7 @@ This lab focused on locally enforceable STIG controls applicable to standalone W
 The following steps outline the initial lab setup, including virtual machine configuration and STIG Viewer installation.
 
 ### Install Virtual Machine
-![Install VirtualMachine](Screenshots/vm_running.png)
+![Install Virtual Machine](Screenshots/vm_running.png)
 
 ### Install STIG Viewer
 ![Install STIG Viewer](Screenshots/stig_viewer_loaded.png)
